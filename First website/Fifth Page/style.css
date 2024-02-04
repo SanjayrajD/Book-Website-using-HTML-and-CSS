@@ -1,0 +1,92 @@
+.one {
+    display: flex;
+    background-color: gray;
+}
+
+.one img {
+    margin-top: 19px;
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.one p {
+    font-family: "Inter", sans-serif;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.two {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    margin-left: 65px;
+}
+
+.two p {
+    font-size: 18px;
+}
+
+.two input {
+    margin-top: 19px;
+    height: 30px;
+    width: 80px;
+}
+
+.center
+{
+    background-image: url(gin.png);
+    background-size: cover;
+    height: 600px;
+}
+.center1
+{
+    position: absolute;
+    left:280px;
+    top:230px;
+    font-size: 35px;
+    font-family: "Leckerli One", cursive;
+    background:linear-gradient(#FA0E38,#F80DE0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.footer
+{
+    display: flex;
+    flex-direction: row;
+}
+.service
+{
+    margin-left: 90px;
+    font-size: 18px;
+}
+.works
+{
+    margin-left: 90px;
+    font-size: 18px;
+}
+.contact
+{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.us
+{
+    margin-left: 15px;
+    font-size: 16px;
+}
+#social
+{
+    width: 140px;
+    height: 80px;
+    position: absolute;
+    top:800px;
+    left:1200px;
+}
+.log
+{
+    position: absolute;
+    width: 20px;
+    height:20px;
+    left:1308px
+}
